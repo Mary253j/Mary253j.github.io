@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="付文星的个人主页。数据科学与大数据技术专业大一学生，喜欢象棋与 AI，记录从零开始的学习计划与未来作品。">
+  <meta name="color-scheme" content="light">
+  <title>付文星 · 个人主页</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="付文星，回到首页">FWX<span>付文星 / PORTFOLIO</span></a>
+    <nav aria-label="主导航"><a href="#about">关于</a><a href="#projects">作品</a><a href="#journey">学习</a><a href="#contact">联系 ↗</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> 喜欢象棋，也对 AI 充满好奇</p>
+        <h1>你好，我是付文星。<br>从兴趣出发，<br><span>探索数据与 AI。</span></h1>
+        <p class="intro">一名数据科学与大数据技术专业的大一学生。我的兴趣是象棋和 AI，准备从编程基础开始，逐步把想法变成自己的小作品。</p>
+        <div class="actions">
+          <a class="button primary" href="#journey">看看我的学习计划 <span>↗</span></a>
+          <button class="button secondary" id="print" type="button">打印 / 保存简历</button>
+        </div>
+        <p class="demo-note">从零起步 · 暂无公开作品 · 练习与学习安排均为计划</p>
+      </div>
+      <div class="data-art" role="img" aria-label="装饰性数据图形，不代表真实成果或统计数据">
+        <div class="art-top">CURIOSITY TO DISCOVERY<span>01 / START</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-core">落子思考<br>探索新知<span>XIANGQI · DATA · AI</span></div>
+        <div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="art-bottom">从一盘棋，到一次新的发现<span>↗</span></div>
+      </div>
+    </section>
+    <div class="info-strip"><span>数据科学与大数据技术 / 大一</span><span>兴趣：象棋 · AI</span><span>学习方向：Python 基础 → 数据小练习</span></div>
+    <section class="about section" id="about">
+      <div><p class="eyebrow">01 / ABOUT ME</p><h2>从喜欢的事，<br>开始新的尝试。</h2></div>
+      <div>
+        <p class="body-copy">我是付文星，正在读大学一年级，专业是数据科学与大数据技术。我喜欢象棋，也对 AI 感兴趣。</p>
+        <p class="muted">接下来，我计划从 Python 基础开始，用模拟棋局记录练习数据整理，再把完成的内容放到这里。这个主页会随着学习慢慢更新。</p>
+        <div class="education"><span>专业与年级</span><strong>数据科学与大数据技术</strong><p>大学一年级</p></div>
+        <p class="skill-caption">准备学习的方向 · 尚未作为已掌握技能</p>
+        <div class="skills"><span>Python 基础 · 计划</span><span>数据整理 · 计划</span><span>图表表达 · 计划</span><span>AI 辅助学习 · 计划</span></div>
+      </div>
+    </section>
+    <section class="section projects" id="projects">
+      <div class="section-head">
+        <div><p class="eyebrow">02 / FUTURE WORK</p><h2>作品，从第一次尝试开始。</h2></div>
+        <p class="muted">先留出空间，<br>以后放上真正完成的作品。</p>
+      </div>
+      <div class="work-notice"><strong>暂无公开作品</strong><p>下面是准备尝试的练习方向，均未完成，不代表已有成果。</p></div>
+      <div class="filters" role="group" aria-label="筛选练习计划">
+        <button type="button" class="active" data-filter="all" aria-pressed="true">全部计划</button>
+        <button type="button" data-filter="data" aria-pressed="false">数据练习</button>
+        <button type="button" data-filter="web" aria-pressed="false">网页练习</button>
+      </div>
+      <p id="result" class="sr-only" aria-live="polite">显示 3 个练习计划，均未完成</p>
+      <div class="project-grid">
+        <article class="project" data-category="data">
+          <div class="project-cover numbers-cover" aria-hidden="true"><span>XIANGQI RECORD / PLAN</span><div class="number-line">01 <b>记录</b></div><div class="number-line">02 <b>整理</b></div><div class="number-line">03 <b>统计</b></div></div>
+          <div class="project-body"><p class="project-tag">数据练习 / 计划，未完成</p><h3>我的第一份象棋对局记录</h3><p>用 10 条模拟对局记录，练习列表、条件判断与计数。</p><details><summary>展开练习计划 <span>＋</span></summary><p>只记录编号与胜、和、负结果，不涉及他人资料。计划先检查输入，再统计各类结果的数量。模拟数据会明确标注。</p></details><div class="tags">计划学习：Python <span>·</span> 数据整理</div></div>
+        </article>
+        <article class="project" data-category="data">
+          <div class="project-cover chart-cover" aria-hidden="true"><span>DATA EXPLORATION / PLAN</span><div class="mini-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><small>装饰示意 · 非实际统计</small></div>
+          <div class="project-body"><p class="project-tag">数据练习 / 计划，未完成</p><h3>把一份记录变成一张图</h3><p>接着整理模拟棋局数据，用简单图表表达胜、和、负分布。</p><details><summary>展开练习计划 <span>＋</span></summary><p>先用总数核对统计结果，再计算胜局占总局数的比例。图表与结论只描述模拟记录，不代表实际棋力。</p></details><div class="tags">计划学习：基础统计 <span>·</span> 图表表达</div></div>
+        </article>
+        <article class="project" data-category="web">
+          <div class="project-cover web-cover" aria-hidden="true"><span>PERSONAL SPACE / PLAN</span><div class="mini-window"><div>● ● ●</div><b>Hello,<br>World<span>.</span></b><i></i></div></div>
+          <div class="project-body"><p class="project-tag">网页练习 / 计划，未完成</p><h3>亲手更新一次个人主页</h3><p>从改一句介绍开始，逐步认识网页内容与外观的区别。</p><details><summary>展开练习计划 <span>＋</span></summary><p>当前主页由 AI 辅助搭建。后续计划亲手修改一段文字，检查手机显示，并在真正完成练习后更新作品区。</p></details><div class="tags">计划认识：HTML / CSS <span>·</span> AI 辅助</div></div>
+        </article>
+      </div>
+    </section>
+    <section class="section journey" id="journey">
+      <div><p class="eyebrow">03 / LEARNING PLAN</p><h2>每次半小时，<br>积累一点进步。</h2><p class="muted">首轮四周计划，尚未标记为已开始。<br>建议每周 3 次，每次约 30 分钟；可随课程调整。</p></div>
+      <ol class="timeline">
+        <li><span>第 1 周 · 计划</span><h3>认识 Python，运行一个小例子</h3><p>认识输出、变量和简单运算。目标：能改动例子，并解释结果为什么变了。</p></li>
+        <li><span>第 2 周 · 计划</span><h3>用模拟棋局练习判断与重复</h3><p>认识条件判断、列表与循环。目标：记录并检查 10 条胜、和、负结果。</p></li>
+        <li><span>第 3 周 · 计划</span><h3>整理数据，完成简单统计</h3><p>在 AI 帮助下统计各类结果与胜局比例，并用手算核对。</p></li>
+        <li><span>第 4 周 · 计划</span><h3>展示结果，写下自己的理解</h3><p>由 AI 协助制作图表，自己核对数据、写三句话说明，再决定是否放入作品区。</p></li>
+      </ol>
+    </section>
+    <section class="contact" id="contact"><p class="eyebrow">04 / KEEP IN TOUCH</p><h2>保持好奇，<br>继续下一次探索。</h2><p>暂未公开联系方式。</p><a class="button secondary" href="#home">回到顶部 ↑</a></section>
+  </main>
+  <footer><span>付文星 / 个人主页</span><span>象棋 · 数据 · AI</span><span>由 AI 辅助搭建 · 持续完善</span></footer>
+</body>
+</html>
